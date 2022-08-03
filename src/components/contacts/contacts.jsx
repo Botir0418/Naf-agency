@@ -1,6 +1,4 @@
-import content from '../../localization/content'
-
-function Contacts({ lang }) {
+function Contacts( ) {
     return (
         <section className="contact" id='contact'>
             <div className="container">

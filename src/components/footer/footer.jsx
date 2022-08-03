@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 
 import Instagram from '../../assets/images/instagram.svg'
 import Telegram from '../../assets/images/telegram.svg'
@@ -7,7 +6,7 @@ import Youtube from '../../assets/images/youtube.svg'
 import Topbtn from '../../assets/images/top-btn.svg'
 
 
-function Footer({ lang }) {
+function Footer( ) {
     return (
         <>
             <footer className="footer">
