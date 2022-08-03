@@ -1,0 +1,124 @@
+.company {
+    padding: 600px 0;
+    padding-bottom: 350px;
+    background-image: url("../../images/intro.png");
+    background-repeat: no-repeat;
+    background-position: 60px;
+    background-size: cover;
+
+    .container {
+        margin-top: -300px;
+
+        .company__heading {
+            display: block;
+            max-width: 550px;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 0;
+            font-family: "Gilroy", serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 74px;
+            color: #ffffff;
+        }
+
+        .company__title {
+            margin: 0;
+            margin-bottom: 65px;
+            font-family: "Gilroy", serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 17px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .company__btn_box {
+            display: flex;
+            width: 100%;
+            max-width: 550px;
+            justify-content: space-between;
+
+            .port_btn {
+                width: auto;
+                padding: 15px;
+                padding-right: 55px;
+                background: #dfbb7f;
+                border-radius: 8px;
+                border: none;
+                background-image: url("../../images/port-icon.svg");
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: 155px 21px;
+
+                .port_link {
+                    font-family: "Gilroy", serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+
+            .phone_btn {
+                padding: 12px 18px;
+                padding-right: 55px;
+                border: 1px solid #ffffff;
+                border-radius: 8px;
+                background: transparent;
+                background-image: url("../../images/phone-icon.svg");
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: 110px 21px;
+
+                a {
+                    font-family: "Gilroy", serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+@include media-max(1660px) {
+    .company {
+        padding: 460px 0;
+        padding-bottom: 380px;
+    }
+}
+
+@include media-max(1600px) {
+    .company {
+        padding: 420px 0;
+        padding-bottom: 358px;
+        background-position: 20px;
+    }
+}
+
+@include media-max(1495px) {
+    .company {
+        padding: 427px 0;
+        padding-bottom: 316px;
+        background-position: 14px;
+    }
+}
+
+@include media-max(1460px) {
+    .company {
+        .container {
+            padding-left: 95px;
+        }
+    }
+}
+
+@include media-max(1365px) {
+    .company .container {
+        padding-left: 55px;
+    }
+}
