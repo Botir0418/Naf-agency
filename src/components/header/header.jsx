@@ -86,29 +86,29 @@ function Header({ lang, setLang }) {
                         <nav className='header__nav'>
                             <ul className='header__nav-list'>
                                 <li className='header__nav-item' onClick={() => setMenu(!menu)}>
-                                    <NavLink className="header__nav-link page-scroll" to={'/'}>
+                                    <a className="header__nav-link page-scroll" href={'/'}>
                                         {content[lang].header.company}
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className='header__nav-item' onClick={() => setMenu(!menu)}>
-                                    <NavLink className="header__nav-link page-scroll" to={'#services'}>
+                                    <a className="header__nav-link page-scroll" href={'#services'}>
                                         {content[lang].header.services}
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className='header__nav-item' onClick={() => setMenu(!menu)}>
-                                    <NavLink className="header__nav-link page-scroll" to={'#portfolio'}>
+                                    <a className="header__nav-link page-scroll" href={'#portfolio'}>
                                         {content[lang].header.portfolio}
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className='header__nav-item' onClick={() => setMenu(!menu)}>
-                                    <NavLink className="header__nav-link page-scroll" to={'#partners'}>
+                                    <a className="header__nav-link page-scroll" href={'#partners'}>
                                         {content[lang].header.partners}
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className='header__nav-item' onClick={() => setMenu(!menu)}>
-                                    <NavLink className="header__nav-link page-scroll" to={'#contact'}>
+                                    <a className="header__nav-link page-scroll" href={'#contact'}>
                                         {content[lang].header.contact}
-                                    </NavLink>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
