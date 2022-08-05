@@ -39,6 +39,7 @@
             width: 100%;
             max-width: 550px;
             justify-content: space-between;
+            flex-wrap: wrap;
 
             .port_btn {
                 width: auto;
@@ -120,5 +121,140 @@
 @include media-max(1365px) {
     .company .container {
         padding-left: 55px;
+    }
+}
+
+@include media-max(1295px) {
+    .company {
+        background-image: url("../../images/intro-tab.png");
+        background-repeat: no-repeat;
+        background-position: 10px;
+        background-size: cover;
+    }
+}
+
+@include media-max(1279px) {
+    .company {
+        padding: 459px 0;
+        padding-bottom: 230px;
+    }
+
+    .company__heading {
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #ffffff;
+    }
+}
+
+@include media-max(1030px) {
+    .company {
+        padding: 427px 0px;
+        padding-bottom: 150px;
+    }
+}
+
+@include media-max(990px) {
+    .company {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        padding: 0px 0px;
+        padding-bottom: 600px;
+        background-image: url("../../images/intro-mob.png");
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-size: 1010px 2000px;
+        border-radius: 10px;
+
+        .container {
+            margin-top: 0px;
+            padding-top: 150px;
+            padding-left: 100px;
+        }
+    }
+}
+
+@include media-max(920px) {
+    .company {
+        background-size: 925px 1775px;
+    }
+}
+
+@include media-max(840px) {
+    .company {
+        background-size: 855px 1720px;
+    }
+}
+
+@include media-max(790px) {
+    .company {
+        background-size: 750px 1450px;
+    }
+}
+
+@include media-max(685px) {
+    .company {
+        background-size: 700px 1380px;
+
+        .container {
+            padding-left: 55px;
+        }
+    }
+}
+
+@include media-max(635px) {
+    .company {
+        background-size: 640px 1330px;
+
+        .container {
+            padding-left: 50px;
+        }
+    }
+}
+
+@include media-max(590px) {
+    .company {
+        background-size: 610px 1300px;
+    }
+}
+
+@include media-max(550px) {
+    .company {
+        background-size: 600px 1300px;
+    }
+}
+
+@include media-max(550px) {
+    .company {
+        background-size: contain;
+        margin-top: 0;
+        padding-top: 0px !important;
+
+        .container {
+            max-width: 490px;
+            margin-bottom: 0;
+            .company__heading {
+                font-size: 48px;
+            }
+
+            .company__btn_box {
+                flex-direction: column;
+
+                .port_btn {
+                    width: 100%;
+                    max-width: 240px;
+                    margin-bottom: 20px;
+                    background-position: 175px 21px;
+                }
+
+                .phone_btn {
+                    width: 100%;
+                    max-width: 175px;
+                    background-position: 125px 18px;
+                }
+            }
+        }
     }
 }

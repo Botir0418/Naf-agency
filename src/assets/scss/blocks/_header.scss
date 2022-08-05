@@ -146,13 +146,13 @@
         }
     }
 
-    @include media-max(1235px) {
+    @include media-max(1262px) {
         .header__nav-item + .header__nav-item {
             margin-left: 15px !important;
         }
     }
 
-    @include media-max(1190px) {
+    @include media-max(1200px) {
         .header__nav {
             display: none !important;
         }
@@ -242,12 +242,5 @@
                 }
             }
         }
-    }
-}
-
-
-@include media-max(1660px) {
-    .header{
-        margin-bottom: 20px;
     }
 }

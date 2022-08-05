@@ -20,10 +20,12 @@
         max-width: 1400px;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin: 0 auto;
     }
-
+    
     .team__item {
         display: block;
+        margin: 0 auto;
         margin-bottom: 20px;
         padding: 30px;
         background: #f3f3f3;
