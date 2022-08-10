@@ -17,7 +17,7 @@ function Contacts( ) {
                     </div>
                     <label className='contacts__input-message__label-box'>
                         <p className='contacts__input-message__label'>Xabaringizni qoldiring</p>
-                        <textarea className='contacts__input-message' name="message" cols="85" rows="5" placeholder='Xabar yozish...'></textarea>
+                        <textarea className='contacts__input-message' name="message" cols="96" rows="5" placeholder='Xabar yozish...'></textarea>
                     </label>
 
                     <button className='contacts__btn'>Yuborish</button>

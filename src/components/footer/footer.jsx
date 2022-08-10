@@ -80,7 +80,7 @@ function Footer( ) {
                             </ul>
 
                             <button className="footer__top__btn">
-                                <a className='' href='#header'>
+                                <a className='' href='/'>
                                     <img src={Topbtn} alt="top button icon" width={30} heigh={30} />
                                 </a>
                             </button>
