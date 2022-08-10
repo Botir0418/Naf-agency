@@ -104,4 +104,34 @@
         line-height: 25px;
         color: #ffffff;
     }
+
+    @include media-max(1160px) {
+        .portfolio__top-box {
+            flex-direction: column;
+        }
+
+        .portfolio__type-list {
+            margin-top: 30px;
+        }
+
+        .portfolio__type-item + .portfolio__type-item {
+            margin-left: 20px;
+        }
+
+        .portfolio__type-item{
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .portfolio__type-btn {
+            width: 100%;
+            min-width: 100px;
+        }
+    }
+
+    @include media-max(668px) {
+        .portfolio__list-img{
+            width: 100%;
+        }
+    }
 }
