@@ -1,5 +1,6 @@
 import content from '../../localization/content'
-
+import Mironshoh from '../../assets/images/Mironshoh.png'
+import Botir from '../../assets/images/botir.png'
 function Team({ lang }) {
     return (
         <section className="team">
@@ -9,7 +10,7 @@ function Team({ lang }) {
                 <ul className='team__list'>
                     <li className='team__item'>
                         <img className='team__image'
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
+                            src={Mironshoh}
                             alt="person's avatar"
                             width={210}
                             height={190} />
@@ -18,7 +19,16 @@ function Team({ lang }) {
                     </li>
                     <li className='team__item'>
                         <img className='team__image'
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
+                            src={Botir}
+                            alt="person's avatar"
+                            width={210}
+                            height={190} />
+                        <h3 className='team__item__title'>Ботир Каримов </h3>
+                        <p className='team__item__info'>Разработчик, Front-end</p>
+                    </li>
+                    <li className='team__item'>
+                        <img className='team__image'
+                            src={Mironshoh}
                             alt="person's avatar"
                             width={210}
                             height={190} />
@@ -27,16 +37,7 @@ function Team({ lang }) {
                     </li>
                     <li className='team__item'>
                         <img className='team__image'
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
-                            alt="person's avatar"
-                            width={210}
-                            height={190} />
-                        <h3 className='team__item__title'>Мироншох Насимов</h3>
-                        <p className='team__item__info'>IT-эксперт, Основателькомпании Naf</p>
-                    </li>
-                    <li className='team__item'>
-                        <img className='team__image'
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
+                            src={Mironshoh}
                             alt="person's avatar"
                             width={210}
                             height={190} />

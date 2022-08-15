@@ -15,7 +15,7 @@ function Portfolio({ lang }) {
                     <ul className="portfolio__type-list">
                         <li className="portfolio__type-item">
                             <button className="portfolio__type-btn">
-                                VEB-SAYTLAR
+                            MOBIL ILOVA
                             </button>
                         </li>
                         <li className="portfolio__type-item">
@@ -25,12 +25,12 @@ function Portfolio({ lang }) {
                         </li>
                         <li className="portfolio__type-item">
                             <button className="portfolio__type-btn">
-                                VEB-SAYTLAR
+                            BRENDING
                             </button>
                         </li>
                         <li className="portfolio__type-item">
                             <button className="portfolio__type-btn">
-                                VEB-SAYTLAR
+                            MARKETING
                             </button>
                         </li>
                         <li className="portfolio__type-item">

@@ -10,15 +10,15 @@ function Statistics({ lang }) {
                         <p className="statistics__title">{content[lang].statistics.completed}</p>
                     </li>
                     <li className="statistics__item">
-                        <h2 className="statistics__count">10+</h2>
+                        <h2 className="statistics__count">12+</h2>
                         <p className="statistics__title">{content[lang].statistics.completed}</p>
                     </li>
                     <li className="statistics__item">
-                        <h2 className="statistics__count">10+</h2>
+                        <h2 className="statistics__count">15+</h2>
                         <p className="statistics__title">{content[lang].statistics.completed}</p>
                     </li>
                     <li className="statistics__item">
-                        <h2 className="statistics__count">10+</h2>
+                        <h2 className="statistics__count">6+</h2>
                         <p className="statistics__title">{content[lang].statistics.completed}</p>
                     </li>
                 </ul>
