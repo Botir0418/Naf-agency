@@ -1,7 +1,16 @@
+import contactBg from '../../assets/images/Rectangle 39240.png'
+
 function Contacts( ) {
     return (
         <section className="contact" id='contact'>
             <div className="container">
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                <div className="contact-bg"><img src={contactBg} alt="contactBg" /></div>
+                {/* <div className="circleRotate"></div> */}
                 <p className="contact__title">Sizda g’oya bormi?</p>
                 <h2 className="contact__heading">BIZGA BOG'LANING G'OYALARNI AMALGA OSHIRING!</h2>
                 <form>
@@ -17,7 +26,7 @@ function Contacts( ) {
                     </div>
                     <label className='contacts__input-message__label-box'>
                         <p className='contacts__input-message__label'>Xabaringizni qoldiring</p>
-                        <textarea className='contacts__input-message' name="message" cols="96" rows="5" placeholder='Xabar yozish...'></textarea>
+                        <textarea className='contacts__input-message' name="message" placeholder='Xabar yozish...'></textarea>
                     </label>
 
                     <button className='contacts__btn'>Yuborish</button>

@@ -1,6 +1,5 @@
 .company {
     padding: 600px 0;
-    padding-bottom: 350px;
     background-image: url("../../images/intro.png");
     background-repeat: no-repeat;
     background-position: 60px;
@@ -12,7 +11,6 @@
         .company__heading {
             display: block;
             max-width: 550px;
-            margin: 0;
             margin-bottom: 10px;
             padding: 0;
             font-family: "Gilroy", serif;
@@ -21,6 +19,7 @@
             font-size: 60px;
             line-height: 74px;
             color: #ffffff;
+
         }
 
         .company__title {
@@ -83,6 +82,10 @@
                     color: #ffffff;
                 }
             }
+
+            @media screen and (max-width: 550px) {
+                margin-bottom: 11.5rem;
+            }
         }
     }
 }
@@ -121,6 +124,7 @@
 @include media-max(1365px) {
     .company .container {
         padding-left: 55px;
+        margin-top: 100px;
     }
 }
 
@@ -224,19 +228,26 @@
     .company {
         background-size: 600px 1300px;
     }
+    .company__heading {
+        font-size: 48px;
+        margin-top: 110px;
+    }
 }
 
 @include media-max(550px) {
     .company {
         background-size: contain;
         margin-top: 0;
+        margin-bottom: -450px;
         padding-top: 0px !important;
 
         .container {
             max-width: 490px;
-            margin-bottom: 0;
+            margin-top: -350px;
+            
             .company__heading {
-                font-size: 48px;
+                font-size: 30px;
+                padding-top: 50px;
             }
 
             .company__btn_box {

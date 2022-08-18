@@ -24,6 +24,7 @@
     
     .partners__list {
         display: flex;
+        align-items: center;
         width: 100%;
         max-width: 1400px;
         flex-wrap: wrap;
@@ -33,5 +34,11 @@
     .partners__item {
         display: block;
         padding: 40px 60px;
+
+        @media screen and (max-width: 600px) {
+            width: 42%;
+            padding: 0;
+            margin: 1rem 0.5rem;
+        }
     }
 }

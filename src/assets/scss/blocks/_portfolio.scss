@@ -42,6 +42,7 @@
     .portfolio__type-item {
         width: 100%;
         max-width: 175px;
+       
     }
 
     .portfolio__type-btn {
@@ -56,6 +57,7 @@
         font-size: 20px;
         line-height: 24px;
         color: #191c2f;
+        cursor: pointer;
     }
 
     .portfolio__list-box {
@@ -68,7 +70,7 @@
     }
 
     .portfolio__single-image {
-        margin-bottom: 10px;
+        margin-bottom: 100px;
         border-radius: 10px;
     }
 

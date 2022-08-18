@@ -15,7 +15,7 @@ function Team({ lang }) {
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
-                        <p className='team__item__info'>IT-эксперт, Основателькомпании Naf</p>
+                        <p className='team__item__info'>IT-эксперт, Основатель компании Naf</p>
                     </li>
                     <li className='team__item'>
                         <img className='team__image'
@@ -33,7 +33,7 @@ function Team({ lang }) {
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
-                        <p className='team__item__info'>IT-эксперт, Основателькомпании Naf</p>
+                        <p className='team__item__info'>IT-эксперт, Основатель компании Naf</p>
                     </li>
                     <li className='team__item'>
                         <img className='team__image'
@@ -42,7 +42,7 @@ function Team({ lang }) {
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
-                        <p className='team__item__info'>IT-эксперт, Основателькомпании Naf</p>
+                        <p className='team__item__info'>IT-эксперт, Основатель компании Naf</p>
                     </li>
                 </ul>
             </div>

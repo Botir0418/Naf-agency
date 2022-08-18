@@ -1,5 +1,6 @@
 import content from "../../localization/content"
 
+
 function Portfolio({ lang }) {
     let photo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'
 
@@ -14,27 +15,27 @@ function Portfolio({ lang }) {
 
                     <ul className="portfolio__type-list">
                         <li className="portfolio__type-item">
-                            <button className="portfolio__type-btn">
-                            MOBIL ILOVA
+                            <button type="button" className="portfolio__type-btn">
+                                MOBIL ILOVA
                             </button>
                         </li>
                         <li className="portfolio__type-item">
-                            <button className="portfolio__type-btn">
+                            <button type="button" className="portfolio__type-btn" onclick='slider(-1)'>
                                 VEB-SAYTLAR
                             </button>
                         </li>
                         <li className="portfolio__type-item">
-                            <button className="portfolio__type-btn">
-                            BRENDING
+                            <button type="button" className="portfolio__type-btn" onclick='slider(1)'>
+                                BRENDING
                             </button>
                         </li>
                         <li className="portfolio__type-item">
-                            <button className="portfolio__type-btn">
-                            MARKETING
+                            <button type="button" className="portfolio__type-btn" onclick='slider(-1)'>
+                                MARKETING
                             </button>
                         </li>
                         <li className="portfolio__type-item">
-                            <button className="portfolio__type-btn">
+                            <button type="button" className="portfolio__type-btn" onclick='slider(1)'>
                                 VEB-SAYTLAR
                             </button>
                         </li>
@@ -43,7 +44,7 @@ function Portfolio({ lang }) {
 
                 <div className="portfolio__list-box">
                     <div className="portfolio__single">
-                        <img className="portfolio__single-image" src={photo} alt="nature" width={650} height={515} />
+                    <img className="portfolio__single-image" src={photo} alt="nature" width={650} height={515} />
                     </div>
                     <ul className="portfolio__list">
                         <li className="portfolio__item">

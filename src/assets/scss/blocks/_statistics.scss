@@ -1,5 +1,6 @@
 .statistics {
     margin-bottom: 110px;
+   
 
     .statistics__list {
         display: flex;
@@ -9,7 +10,7 @@
         margin: 0 auto; 
 
         li{
-            padding: 15px;
+            padding: 30px 0px;
         }
 
 
@@ -34,5 +35,17 @@
             text-align: center;
             color: #191c2f;
         }
+    }
+    @media screen and (max-width:600px) {
+      .statistics__list{
+        width: 10vh;
+      } 
+      .statistics{
+        margin-top: -350px;
+      }
+      
+      .statistics li{
+        margin-bottom: 50px;
+      }
     }
 }
